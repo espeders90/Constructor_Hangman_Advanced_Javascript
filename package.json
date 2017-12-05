@@ -1,0 +1,19 @@
+{
+  "name": "hangmsn",
+  "version": "1.0.0",
+  "description": "Week 6 Bootcamp Advanced Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espeders90/Constructor_Hangman_Advanced_Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espeders90/Constructor_Hangman_Advanced_Javascript/issues"
+  },
+  "homepage": "https://github.com/espeders90/Constructor_Hangman_Advanced_Javascript#readme"
+}
