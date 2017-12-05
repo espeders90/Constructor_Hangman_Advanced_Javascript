@@ -1,22 +1,23 @@
-//constructor to create letters
-
+// Create constructor
 var Letter = function(letter) {
     this.letter = letter;
     this.show = false;
 
-
-    // show letter if user guesses the right word. Change this.show = false to tru
-
-    this.userGuess = function(guess) {
-        if (this.letter === guess) {
+    // show letter
+    this.letterAppear = function(guess) {
+        if (this.letter === " ") {
             this.show = true;
-            console.log(guess);
-            console.log(this.show);
+            return " ";
         }
+
+        if (this.show === false) {
+            return "_";
+        }
+
         else {
-            console.log("Keep guessing");
+            return this.letter;
         }
     };
-
-    module.exports = Letter;
 };
+
+module.exports = Letter;
